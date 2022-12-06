@@ -1,0 +1,42 @@
+body{
+    background: #202020;
+}
+
+.centering{
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.mx-auto{
+    text-align: center;
+    padding: 6rem;
+    border-radius: 1rem;
+}
+
+.bg-primary{
+    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.473)),url(default.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(255, 196, 0);
+    font-weight: 700;
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+}
+
+#guess-btn{
+    color: #000;
+    background-color: rgb(255, 153, 0);
+}
+
+#guess-input{
+    background-color: rgb(226, 226, 226);
+    color: #000;
+}
